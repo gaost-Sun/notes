@@ -1,0 +1,9 @@
+# ninja log v5
+0	25229	1704783361950525274	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation.o	41250e46fe20aeb7
+1	43622	1704783380366407120	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
+59	25218	1704787687811784194	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation.o	41250e46fe20aeb7
+59	45013	1704787707621438990	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
+58	46217	1704790220645698964	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
+74	46359	1704790436097168259	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
+61	43465	1704790589392733114	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
+28	45689	1704790845407106008	/home/sunhao/cuda_notes/build/temp.linux-x86_64-cpython-38/interpolation_kernel.o	e360a40068d6e2ac
