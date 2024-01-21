@@ -1,0 +1,22 @@
+# 孙浩 第2周周报
+--- 
+
+## （一） 上周计划
+
+| 任务 | 状态 |
+| :----: | :----: |
+| 学习cuda编程 | 完成 |
+| 继续深入理解instant-ngp的代码 | 完成 |
+| 低光nerf实验：noise的另一种实现 | 完成 |
+
+## （二） 本周工作
+* 研究&学习
+  - 完成cuda编程的学习,以三线性插值算法的cuda优化为例进行了实验，对比了在pytorch环境下和cuda优化下三线性插值算法的速度比对，并且模拟了神经网络梯度回传更新过程。<br/>
+  *cuda coding notes:* https://github.com/gaost-Sun/notes/blob/main/cuda_notes/notes.md
+  - 理解instant-ngp的cuda编码部分，目前已能完成一些后续的修改任务。下周将尝试对编码部分进行修改
+  - 完成noise的另一种实验并开展了低光NeRF项目的组会，组会纪要：https://github.com/WizardZZH/AiXM-private/blob/lowlightNeRF/%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95/%E7%AC%AC%E4%B8%80%E5%91%A8.md
+
+
+
+## （三） 下周计划
+* 低光nerf实验：修改instant-ngp网络，加入illumination编码并改写渲染方程
