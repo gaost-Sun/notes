@@ -15,26 +15,26 @@
 -   Network
     <center>
     <img
-    src="img/Network1(decomposition：ref and illu)_00.jpg" width = "80%" />
+    src="ngp-img/Network1(decomposition：ref and illu)_00.jpg" width = "80%" />
     </center>
 -   GT && Results deconposition views
 
  <center>
     <img 
-    src="img/r_0.png" width = "50%" />
+    src="ngp-img/r_0.png" width = "50%" />
     <div padding: 2px;">
       Ground Truth
   	</div>
 <br>
 <br>
     <img 
-    src="img/000.png" width = "24%" />
+    src="ngp-img/000.png" width = "24%" />
     <img
-    src="img/000_d.png" width = "24%" />
+    src="ngp-img/000_d.png" width = "24%" />
     <img
-    src="img/000_illu.png" width = "24%" />
+    src="ngp-img/000_illu.png" width = "24%" />
     <img
-    src="img/000_ref.png" width = "24%" />
+    src="ngp-img/000_ref.png" width = "24%" />
 
 <br>
     <div padding: 2px;">
@@ -42,40 +42,40 @@
   	</div>
     <br>
     <img 
-    src="img/r_145.png" width = "50%" />
+    src="ngp-img/r_145.png" width = "50%" />
     <div padding: 2px;">
       Ground Truth
   	</div>
 <br>
 <br>
     <img 
-    src="img/145.png" width = "24%" />
+    src="ngp-img/145.png" width = "24%" />
     <img
-    src="img/145_d.png" width = "24%" />
+    src="ngp-img/145_d.png" width = "24%" />
     <img
-    src="img/145_illu.png" width = "24%" />
+    src="ngp-img/145_illu.png" width = "24%" />
     <img
-    src="img/145_ref.png" width = "24%" />
+    src="ngp-img/145_ref.png" width = "24%" />
     <br>
     <div>
       composition、depth、illumination、reflectance
   	</div>
     <br>
     <img 
-    src="img/r_166.png" width = "50%" />
+    src="ngp-img/r_166.png" width = "50%" />
     <div padding: 2px;">
       Ground Truth
   	</div>
 <br>
 <br>
     <img 
-    src="img/166.png" width = "24%" />
+    src="ngp-img/166.png" width = "24%" />
     <img
-    src="img/166_d.png" width = "24%" />
+    src="ngp-img/166_d.png" width = "24%" />
     <img
-    src="img/166_illu.png" width = "24%" />
+    src="ngp-img/166_illu.png" width = "24%" />
     <img
-    src="img/166_ref.png" width = "24%" />
+    src="ngp-img/166_ref.png" width = "24%" />
     <br>
     <div>
       composition、depth、illumination、reflectance
