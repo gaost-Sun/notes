@@ -109,23 +109,23 @@
     - linear adjustment of illumination(0.1、0.5、1)
     <center>
     <img 
-    src="img/r_0_0.png" width = "32%" />
+    src="ngp-img/r_0_0.png" width = "32%" />
     <img
-    src="img/r_0_1.png" width = "32%" />
+    src="ngp-img/r_0_1.png" width = "32%" />
     <img
-    src="img/r_0_2.png" width = "32%" />
+    src="ngp-img/r_0_2.png" width = "32%" />
     <img 
-    src="img/r_15_0.png" width = "32%" />
+    src="ngp-img/r_15_0.png" width = "32%" />
     <img
-    src="img/r_15_1.png" width = "32%" />
+    src="ngp-img/r_15_1.png" width = "32%" />
     <img
-    src="img/r_15_2.png" width = "32%" />
+    src="ngp-img/r_15_2.png" width = "32%" />
     <img 
-    src="img/r_40_0.png" width = "32%" />
+    src="ngp-img/r_40_0.png" width = "32%" />
     <img
-    src="img/r_40_1.png" width = "32%" />
+    src="ngp-img/r_40_1.png" width = "32%" />
     <img
-    src="img/r_40_2.png" width = "32%" />
+    src="ngp-img/r_40_2.png" width = "32%" />
     <div>linear adjustment factor=0.1、0.5、1</div>
     </center>
     <br>
