@@ -6,22 +6,22 @@
 	- Diffusion生成：直接通过prompt控制，更加便捷、生成较真实、但很难达成精确的控制
 - 难点：如何干净的、彻底的分解出不同的解耦图？解耦过程中存在很多的不确定性
 - idea：基于Diffusion从RGB中解耦出X，对不同解耦成分进行控制，增强生成的可控性
-![a5a5ab4208666efcaa02c6c9321dbf45.png](../_resources/a5a5ab4208666efcaa02c6c9321dbf45.png)
+![a5a5ab4208666efcaa02c6c9321dbf45.png](../img/a5a5ab4208666efcaa02c6c9321dbf45.png)
 - 过程&&结果
 	- RGB->X
-	![d24542454246c537daeffae9c48c71db.png](../_resources/d24542454246c537daeffae9c48c71db.png)
+	![d24542454246c537daeffae9c48c71db.png](../img/d24542454246c537daeffae9c48c71db.png)
 	- X->RGB（可以选择性的输入X去生成不同预期的结果）
-	![4901b281f3894596efdb253f8c3fd4f7.png](../_resources/4901b281f3894596efdb253f8c3fd4f7.png)
+	![4901b281f3894596efdb253f8c3fd4f7.png](../img/4901b281f3894596efdb253f8c3fd4f7.png)
 - 结果
 	- RGB->X
-	![a6389e6a197dbce5747d212f189cf82b.png](../_resources/a6389e6a197dbce5747d212f189cf82b.png)
+	![a6389e6a197dbce5747d212f189cf82b.png](../img/a6389e6a197dbce5747d212f189cf82b.png)
 	- X->RGB
-	![8348f7e1a1e7381c27c3a1e9019c0e43.png](../_resources/8348f7e1a1e7381c27c3a1e9019c0e43.png)
+	![8348f7e1a1e7381c27c3a1e9019c0e43.png](../img/8348f7e1a1e7381c27c3a1e9019c0e43.png)
 - 应用
 	- 通过prompt来替代X，进行解耦成分的语义控制，如下左图所示，输入的X只有法线图和Albedo图，而光照则通过prompt进行语义输入。再如下右图所示，输入的X只有法线图和光照图，而沙发的材质通过prompt进行语义输入。
-	![90dc71020d259ab5ec4cca401c413879.png](../_resources/90dc71020d259ab5ec4cca401c413879.png)
+	![90dc71020d259ab5ec4cca401c413879.png](../img/90dc71020d259ab5ec4cca401c413879.png)
 	- 通过对解耦图X进行编辑（插入），配合mask图实现渲染结果中也达到预期的效果
-	![c528c5a4f2c86992d25335323ffb67e5.png](../_resources/c528c5a4f2c86992d25335323ffb67e5.png)
+	![c528c5a4f2c86992d25335323ffb67e5.png](../img/c528c5a4f2c86992d25335323ffb67e5.png)
 ## 内容二：AI时代的图形流水线探讨
 - 主讲人：霍宇驰
 - 传统Graphics Pipeline研究内容：
@@ -31,16 +31,16 @@
 重建、生成、交互、渲染、计算
 
 - AI时代重建方面的变化：
-![c2188ebfe8c7b054dae453f87d61f3e7.png](../_resources/c2188ebfe8c7b054dae453f87d61f3e7.png)
+![c2188ebfe8c7b054dae453f87d61f3e7.png](../img/c2188ebfe8c7b054dae453f87d61f3e7.png)
 
 - AI时代生成方面的变化：
- ![9d1a1318a2b4e0b0a08bc48b2fafb266.png](../_resources/9d1a1318a2b4e0b0a08bc48b2fafb266.png)
+ ![9d1a1318a2b4e0b0a08bc48b2fafb266.png](../img/9d1a1318a2b4e0b0a08bc48b2fafb266.png)
 
 - AI时代交互方面的变化：如何控制新式的图元
-- ![a468f7b0cea8d19584073a3fdcd63abf.png](../_resources/a468f7b0cea8d19584073a3fdcd63abf.png)
+- ![a468f7b0cea8d19584073a3fdcd63abf.png](../img/a468f7b0cea8d19584073a3fdcd63abf.png)
 
 - AI时代渲染方面的变化：
-![68370e11facd0b67bdb5a17b3004266f.png](../_resources/68370e11facd0b67bdb5a17b3004266f.png)
+![68370e11facd0b67bdb5a17b3004266f.png](../img/68370e11facd0b67bdb5a17b3004266f.png)
 
  - AI 改变图像管线的一些效果展示
  - SORA和传统图形管线的对比分析
@@ -61,7 +61,7 @@
 - 二阶段： 支持多单模态和多模态任务（UMT）
 	- 使用了UnmakeTeacher策略、掩码策略
 - 三阶段：时序理解的视频对话系统（VideoChat2） 
- ![48ab37fa1fa843d1819331ce887d793c.png](../_resources/48ab37fa1fa843d1819331ce887d793c.png)
+ ![48ab37fa1fa843d1819331ce887d793c.png](../img/48ab37fa1fa843d1819331ce887d793c.png)
  
 
 - 成果方面
@@ -74,25 +74,25 @@
 - 主讲人：王申龙
 
 - 核心思想：如何使计算机获得像人类一样拥有感知物理世界并且进行想象的能力，从而使得模型能够进行可信的三维世界内容的创造。
-![48f7ff0d4c2f7ea6261174f711faffe9.png](../_resources/48f7ff0d4c2f7ea6261174f711faffe9.png)
+![48f7ff0d4c2f7ea6261174f711faffe9.png](../img/48f7ff0d4c2f7ea6261174f711faffe9.png)
 
 - 问题分析：过去几年三维计算机视觉的发展让我们有能力通过神经网络、3D GS对真实世界非常精确地进行建模和理解，通过数字模型对真实世界进行还原，但是还原只能对已存在的内容进行还原，进行再创作的能力比较局限。 
 - 终极目标：连接数字世界和真实世界
 - 两部分具体内容：光照仿真、动态仿真
 - 光照
 	- 任务：解耦光照、改变光照
-![83e935ab21bf8fe5dcfbf83d6ab4810d.png](../_resources/83e935ab21bf8fe5dcfbf83d6ab4810d.png)
+![83e935ab21bf8fe5dcfbf83d6ab4810d.png](../img/83e935ab21bf8fe5dcfbf83d6ab4810d.png)
 	- 核心挑战和目标
 	单一光照、单一视频的数据 -> 大规模场景的relighting
-	![215928a6a789a9a23ca9b0bc58a66d97.png](../_resources/215928a6a789a9a23ca9b0bc58a66d97.png)
+	![215928a6a789a9a23ca9b0bc58a66d97.png](../img/215928a6a789a9a23ca9b0bc58a66d97.png)
 	- 方式：
 		- 数据驱动、数据先验/理解
 		- 额外约束，显式建模：如阴影（shadow）
 - 动态
 	- 风格转换：转换为冬天风格（存在的问题：物体上并无积雪）
-	![d097936a3881e4848d05c9716392446d.png](../_resources/d097936a3881e4848d05c9716392446d.png)
+	![d097936a3881e4848d05c9716392446d.png](../img/d097936a3881e4848d05c9716392446d.png)
 	- 风格转换+物理仿真：精确控制下雪量、积雪量（具体方式未提）——结果更加逼真
 - 应用：视频 -> 游戏 Vidoe2Game （CVPR 2024）
-![969333f9dad3231d3f2a0e0043d4965b.png](../_resources/969333f9dad3231d3f2a0e0043d4965b.png)
+![969333f9dad3231d3f2a0e0043d4965b.png](../img/969333f9dad3231d3f2a0e0043d4965b.png)
 通过nerf建模，转mesh，语义理解，语义分割，通过一些仿真方式去计算一些游戏引擎所需要的参数（如物体与物体之间的摩擦等），构建3D assets。
-![0720aa488dd4dbb7840433b86457b4cb.png](../_resources/0720aa488dd4dbb7840433b86457b4cb.png)
+![0720aa488dd4dbb7840433b86457b4cb.png](../img/0720aa488dd4dbb7840433b86457b4cb.png)
